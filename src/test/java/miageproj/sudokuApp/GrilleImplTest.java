@@ -4,7 +4,7 @@ package com.miageprojet.app;
 
 //import org.junit.jupiter.api.Test;
 
-import org.junit.Assert.*;
+import org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
 
 class GrilleImplTest {
