@@ -28,7 +28,7 @@ class GrilleImplTest {
 	public void getDimensiontest(){
 		  
 	    
-	    Assert.assertEquals(9, new GrilleImpl(new char[][]{
+	    org.junit.Assert.Assert.assertEquals(9, new GrilleImpl(new char[][]{
             {'3', '@', '6', '5', '@', '8', '4', '@', '@'},
             {'5', '2', '@', '@', '@', '@', '@', '@', '@'},
             {'@', '8', '7', '@', '@', '@', '@', '3', '1'},
@@ -45,7 +45,7 @@ class GrilleImplTest {
 	public void getValuetest(){
 		  
 	    
-	    Assert.assertEquals('3', new GrilleImpl(new char[][]{
+	    org.junit.Assert.Assert.assertEquals('3', new GrilleImpl(new char[][]{
             {'3', '@', '6', '5', '@', '8', '4', '@', '@'},
             {'5', '2', '@', '@', '@', '@', '@', '@', '@'},
             {'@', '8', '7', '@', '@', '@', '@', '3', '1'},
